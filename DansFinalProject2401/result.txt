@@ -1,0 +1,9 @@
+[game.cc:81]: (style) The scope of the variable 'value' can be reduced.
+[game.cc:118]: (style) The scope of the variable 'value' can be reduced.
+[game.h:18]: (warning) Member variable 'game::currentBoard' is not initialized in the constructor.
+[mancala.h:7]: (style) The class 'Mancala' does not have a constructor.
+[mancala.cc:46] -> [mancala.cc:44]: (warning) Either the condition 'currentHole<=13' is redundant or the array 'currentBoard[13]' is accessed at index 13, which is out of bounds.
+[mancala.cc:59] -> [mancala.cc:57]: (warning) Either the condition 'currentHole==13' is redundant or the array 'currentBoard[13]' is accessed at index 13, which is out of bounds.
+[mancala.cc:135]: (error) Array 'currentBoard[13]' accessed at index 13, which is out of bounds.
+[mancala.cc:175]: (style) Exception should be caught by reference.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
